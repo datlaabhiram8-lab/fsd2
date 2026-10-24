@@ -101,3 +101,4 @@ Supports 9 dedicated meeting types with external video call links (Google Meet, 
      - **Client** (`client@apexglobal.com`): View the client portal, test approving or requesting changes on deliverables, and check milestones.
      - **Team Member** (`jordan.dev@perfomatrix.com`): View assigned tasks, report blockers, and test submitting work artifacts.
    - Verify that all navigation links, breadcrumbs, and permission guards adapt immediately.
+

@@ -1,0 +1,28 @@
+{
+  "name": "perfomatrix",
+  "version": "1.0.0",
+  "description": "Unified Task Management, Performance Assessment, and Analytics across Corporate and Academic Organizations",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "test": "npm --prefix backend test && npm --prefix frontend test"
+  },
+  "keywords": [
+    "performance-management",
+    "task-management",
+    "corporate",
+    "academic",
+    "assessments",
+    "rubrics",
+    "analytics"
+  ],
+  "author": "Perfomatrix Team",
+  "license": "MIT",
+  "dependencies": {
+    "connect-mongo": "^6.0.0",
+    "csrf-sync": "^4.2.1",
+    "express-session": "^1.19.0"
+  }
+}
